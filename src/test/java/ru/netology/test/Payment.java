@@ -11,8 +11,7 @@ import ru.netology.pages.PaymentPage;
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static ru.netology.data.DataHelper.getApprovedCard;
-import static ru.netology.data.DataHelper.getDeclinedCard;
+import static ru.netology.data.DataHelper.*;
 import static ru.netology.data.SqlHelper.*;
 
 public class Payment {
@@ -39,8 +38,8 @@ public class Payment {
     void cleanDataBases() {
         SqlHelper.cleanDataBase();
     }
-
-
+    //Все тесты в этом файле на оплату дебетовой картой
+    //Тесты с картами,подготовленными разработчиками,на одобрение-отклонение
     @Test
     public void shouldSuccessPayValidApprovedCard() {
         val cardData = getApprovedCard();
@@ -77,5 +76,24 @@ public class Payment {
         assertNotNull(transactionIdExpected);
         assertNotNull(paymentIdActual);
         assertEquals(transactionIdExpected, paymentIdActual);
+    }
+    //тесты,на поле номер карты
+    @Test
+    public void shouldFailurePaymentIfCardNumberIfOutOfBase() {
+        val cardData = getInvalidCardNumberIfOutOfBase();
+        paymentPage.fillCardData(cardData);
+        paymentPage.shouldFailureNotification();
+    }
+    @Test
+    public void shouldFailurePaymentIfCardNumberIfLess16Sym() {
+        val cardData = getInvalidCardNumberIfLess16Symbol();
+        paymentPage.fillCardData(cardData);
+        paymentPage.shouldIncorrectFormatNotification();
+    }
+    @Test
+    public void shouldFailurePaymentIfEmptyCardNumber() {
+        val cardData = getInvalidCardNumberIfEmpty();
+        paymentPage.fillCardData(cardData);
+        paymentPage.shouldEmptyFieldNotification();
     }
 }

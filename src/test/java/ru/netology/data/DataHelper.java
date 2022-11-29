@@ -30,11 +30,11 @@ public class DataHelper {
     }
 
     public static CardData getInvalidCardNumberIfLess16Symbol() {
-        return new CardData("4444 4444 4444 4", "09", "23", "Ivanov Ivan", "123");
+        return new CardData("4444 4444 4444", "09", "23", "Ivanov Ivan", "123");
     }
 
     public static CardData getInvalidCardNumberIfOutOfBase() {
-        return new CardData("1111 4444 4444 4441", "09", "23", "Ivanov Ivan", "123");
+        return new CardData("4444 4444 4444 4445", "09", "23", "Ivanov Ivan", "123");
     }
 
 //Поле месяц
