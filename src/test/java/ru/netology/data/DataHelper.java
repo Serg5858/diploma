@@ -66,7 +66,7 @@ public class DataHelper {
     }
 
     public static CardData getInvalidYearIfNotCurrentYear() {
-        return new CardData("4444 4444 4444 4441", "09", "19", "Ivanov Ivan", "123");
+        return new CardData("4444 4444 4444 4441", "09", "21", "Ivanov Ivan", "123");
     }
 
     public static CardData getInvalidYearIfZero() {
@@ -109,7 +109,7 @@ public class DataHelper {
         return new CardData("4444 4444 4444 4441", "09", "23", "Ivanov Ivan", "");
     }
 
-    public static CardData getInvalidCvvIfOneSym() {
+    public static CardData getInvalidCvvIfOneSymbol() {
         return new CardData("4444 4444 4444 4441", "09", "23", "Ivanov Ivan", "1");
     }
 
@@ -120,11 +120,9 @@ public class DataHelper {
     public static CardData getInvalidCvvIfThreeZero() {
         return new CardData("4444 4444 4444 4441", "09", "23", "Ivanov Ivan", "000");
     }
-
-    public static CardData getInvalidCardDataIfEmptyAllFields() {
-        return new CardData("", "", "", "", "");
-    }
 }
+
+
 
 
 
