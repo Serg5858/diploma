@@ -43,7 +43,7 @@ public class Payment {
         SqlHelper.cleanDataBase();
     }
     //Все тесты в этом файле на оплату дебетовой картой
-    //Тесты с картами,подготовленными разработчиками,на одобрение-отклонение
+    //Тесты с картами,подготовленными разработчиками.Позитивные тесты
     @Test
     public void shouldSuccessPayValidApprovedCard() {
         val cardData = getApprovedCard();
