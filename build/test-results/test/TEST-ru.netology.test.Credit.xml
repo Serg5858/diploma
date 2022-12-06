@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.test.Credit" tests="24" skipped="0" failures="13" errors="0" timestamp="2022-12-05T12:41:50" hostname="LAPTOP-83EHKA7V" time="103.408">
+<testsuite name="ru.netology.test.Credit" tests="24" skipped="0" failures="13" errors="0" timestamp="2022-12-06T07:22:56" hostname="LAPTOP-83EHKA7V" time="121.104">
   <properties/>
-  <testcase name="shouldFailurePaymentIfEmptyNumberOfMonth()" classname="ru.netology.test.Credit" time="9.3">
-    <failure message="Element not found {by text: Поле обязательно для заполнения}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670244119003.0.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670244119003.0.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Поле обязательно для заполнения}
+  <testcase name="shouldFailurePaymentIfEmptyNumberOfMonth()" classname="ru.netology.test.Credit" time="9.112">
+    <failure message="Element not found {by text: Поле обязательно для заполнения}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670311384405.0.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670311384405.0.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Поле обязательно для заполнения}
 Expected: visible
-Screenshot: file:/C:/diploma/build/reports/tests/1670244119003.0.png
-Page source: file:/C:/diploma/build/reports/tests/1670244119003.0.html
+Screenshot: file:/C:/diploma/build/reports/tests/1670311384405.0.png
+Page source: file:/C:/diploma/build/reports/tests/1670311384405.0.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -115,8 +115,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-83EHKA7V', ip: '172.20.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08e181b821972d62e27be0ddcd990004
 *** Element info: {Using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Поле обязательно для заполнения&quot;]/parent::*}
 	at jdk.internal.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source)
@@ -139,12 +139,12 @@ Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
 	... 97 more
 </failure>
   </testcase>
-  <testcase name="shouldFailurePayIfValidDeclinedCards()" classname="ru.netology.test.Credit" time="16.517">
-    <failure message="Element should be visible {by text: Ошибка! Банк отказал в проведении операции.}&#13;&#10;Element: '&lt;div class=&quot;notification__content&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: visible:false&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670244136105.1.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670244136105.1.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {by text: Ошибка! Банк отказал в проведении операции.}
+  <testcase name="shouldFailurePayIfValidDeclinedCards()" classname="ru.netology.test.Credit" time="17.075">
+    <failure message="Element should be visible {by text: Ошибка! Банк отказал в проведении операции.}&#13;&#10;Element: '&lt;div class=&quot;notification__content&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: visible:false&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670311401663.1.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670311401663.1.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {by text: Ошибка! Банк отказал в проведении операции.}
 Element: '&lt;div class=&quot;notification__content&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: visible:false
-Screenshot: file:/C:/diploma/build/reports/tests/1670244136105.1.png
-Page source: file:/C:/diploma/build/reports/tests/1670244136105.1.html
+Screenshot: file:/C:/diploma/build/reports/tests/1670311401663.1.png
+Page source: file:/C:/diploma/build/reports/tests/1670311401663.1.html
 Timeout: 15 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:121)
 	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
@@ -246,13 +246,13 @@ Timeout: 15 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldFailurePaymentIfYearOneSymbol()" classname="ru.netology.test.Credit" time="0.961"/>
-  <testcase name="shouldFailurePaymentIfEmptyCardholderName()" classname="ru.netology.test.Credit" time="0.915"/>
-  <testcase name="shouldFailurePaymentIfCardholderNameNumeric()" classname="ru.netology.test.Credit" time="5.46">
-    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670244143420.2.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670244143420.2.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="shouldFailurePaymentIfYearOneSymbol()" classname="ru.netology.test.Credit" time="1.645"/>
+  <testcase name="shouldFailurePaymentIfEmptyCardholderName()" classname="ru.netology.test.Credit" time="1.197"/>
+  <testcase name="shouldFailurePaymentIfCardholderNameNumeric()" classname="ru.netology.test.Credit" time="6.262">
+    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670311410629.2.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670311410629.2.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/C:/diploma/build/reports/tests/1670244143420.2.png
-Page source: file:/C:/diploma/build/reports/tests/1670244143420.2.html
+Screenshot: file:/C:/diploma/build/reports/tests/1670311410629.2.png
+Page source: file:/C:/diploma/build/reports/tests/1670311410629.2.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -362,8 +362,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-83EHKA7V', ip: '172.20.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08e181b821972d62e27be0ddcd990004
 *** Element info: {Using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}
 	at jdk.internal.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source)
@@ -386,11 +386,11 @@ Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
 	... 97 more
 </failure>
   </testcase>
-  <testcase name="shouldFailurePaymentIfCardholderNameSpecSymbol()" classname="ru.netology.test.Credit" time="5.496">
-    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670244148928.3.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670244148928.3.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="shouldFailurePaymentIfCardholderNameSpecSymbol()" classname="ru.netology.test.Credit" time="6.223">
+    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670311416875.3.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670311416875.3.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/C:/diploma/build/reports/tests/1670244148928.3.png
-Page source: file:/C:/diploma/build/reports/tests/1670244148928.3.html
+Screenshot: file:/C:/diploma/build/reports/tests/1670311416875.3.png
+Page source: file:/C:/diploma/build/reports/tests/1670311416875.3.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -500,8 +500,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-83EHKA7V', ip: '172.20.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08e181b821972d62e27be0ddcd990004
 *** Element info: {Using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}
 	at jdk.internal.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source)
@@ -524,11 +524,11 @@ Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
 	... 97 more
 </failure>
   </testcase>
-  <testcase name="shouldFailurePaymentIfCardholderNameRusSymbol()" classname="ru.netology.test.Credit" time="5.492">
-    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670244154419.4.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670244154419.4.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="shouldFailurePaymentIfCardholderNameRusSymbol()" classname="ru.netology.test.Credit" time="6.26">
+    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670311423123.4.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670311423123.4.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/C:/diploma/build/reports/tests/1670244154419.4.png
-Page source: file:/C:/diploma/build/reports/tests/1670244154419.4.html
+Screenshot: file:/C:/diploma/build/reports/tests/1670311423123.4.png
+Page source: file:/C:/diploma/build/reports/tests/1670311423123.4.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -638,8 +638,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-83EHKA7V', ip: '172.20.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08e181b821972d62e27be0ddcd990004
 *** Element info: {Using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}
 	at jdk.internal.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source)
@@ -662,12 +662,12 @@ Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
 	... 97 more
 </failure>
   </testcase>
-  <testcase name="shouldFailurePaymentIfNumberOfMonthIfMore12()" classname="ru.netology.test.Credit" time="0.974"/>
-  <testcase name="shouldFailurePaymentIfCardholderNameOneWord()" classname="ru.netology.test.Credit" time="5.477">
-    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670244160909.5.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670244160909.5.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="shouldFailurePaymentIfNumberOfMonthIfMore12()" classname="ru.netology.test.Credit" time="1.465"/>
+  <testcase name="shouldFailurePaymentIfCardholderNameOneWord()" classname="ru.netology.test.Credit" time="6.198">
+    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670311430988.5.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670311430988.5.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/C:/diploma/build/reports/tests/1670244160909.5.png
-Page source: file:/C:/diploma/build/reports/tests/1670244160909.5.html
+Screenshot: file:/C:/diploma/build/reports/tests/1670311430988.5.png
+Page source: file:/C:/diploma/build/reports/tests/1670311430988.5.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -777,8 +777,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-83EHKA7V', ip: '172.20.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08e181b821972d62e27be0ddcd990004
 *** Element info: {Using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}
 	at jdk.internal.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source)
@@ -801,12 +801,12 @@ Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
 	... 97 more
 </failure>
   </testcase>
-  <testcase name="shouldFailurePaymentIfCvvOneSym()" classname="ru.netology.test.Credit" time="0.925"/>
-  <testcase name="shouldFailurePaymentIfCardholderNameThreeWords()" classname="ru.netology.test.Credit" time="5.465">
-    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670244167292.6.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670244167292.6.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="shouldFailurePaymentIfCvvOneSym()" classname="ru.netology.test.Credit" time="1.684"/>
+  <testcase name="shouldFailurePaymentIfCardholderNameThreeWords()" classname="ru.netology.test.Credit" time="6.143">
+    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670311438718.6.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670311438718.6.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/C:/diploma/build/reports/tests/1670244167292.6.png
-Page source: file:/C:/diploma/build/reports/tests/1670244167292.6.html
+Screenshot: file:/C:/diploma/build/reports/tests/1670311438718.6.png
+Page source: file:/C:/diploma/build/reports/tests/1670311438718.6.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -916,8 +916,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-83EHKA7V', ip: '172.20.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08e181b821972d62e27be0ddcd990004
 *** Element info: {Using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}
 	at jdk.internal.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source)
@@ -940,13 +940,13 @@ Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
 	... 97 more
 </failure>
   </testcase>
-  <testcase name="shouldFailurePaymentIfCvvTwoSym()" classname="ru.netology.test.Credit" time="0.972"/>
-  <testcase name="shouldFailurePaymentIfCardNumberLess16Symbol()" classname="ru.netology.test.Credit" time="0.951"/>
-  <testcase name="shouldFailurePaymentIfEmptyCvv()" classname="ru.netology.test.Credit" time="5.194">
-    <failure message="Element not found {.input__sub[2]}&#13;&#10;Expected: text 'Поле обязательно для заполнения'&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670244174446.7.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670244174446.7.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub[2]}
+  <testcase name="shouldFailurePaymentIfCvvTwoSym()" classname="ru.netology.test.Credit" time="1.711"/>
+  <testcase name="shouldFailurePaymentIfCardNumberLess16Symbol()" classname="ru.netology.test.Credit" time="1.346"/>
+  <testcase name="shouldFailurePaymentIfEmptyCvv()" classname="ru.netology.test.Credit" time="5.633">
+    <failure message="Element not found {.input__sub[2]}&#13;&#10;Expected: text 'Поле обязательно для заполнения'&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670311447601.7.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670311447601.7.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub[2]}
 Expected: text 'Поле обязательно для заполнения'
-Screenshot: file:/C:/diploma/build/reports/tests/1670244174446.7.png
-Page source: file:/C:/diploma/build/reports/tests/1670244174446.7.html
+Screenshot: file:/C:/diploma/build/reports/tests/1670311447601.7.png
+Page source: file:/C:/diploma/build/reports/tests/1670311447601.7.html
 Timeout: 4 s.
 Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -1060,11 +1060,11 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length
 	... 96 more
 </failure>
   </testcase>
-  <testcase name="shouldFailurePaymentIfCvvThreeZero()" classname="ru.netology.test.Credit" time="5.479">
-    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670244179886.8.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670244179886.8.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="shouldFailurePaymentIfCvvThreeZero()" classname="ru.netology.test.Credit" time="6.108">
+    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670311453636.8.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670311453636.8.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/C:/diploma/build/reports/tests/1670244179886.8.png
-Page source: file:/C:/diploma/build/reports/tests/1670244179886.8.html
+Screenshot: file:/C:/diploma/build/reports/tests/1670311453636.8.png
+Page source: file:/C:/diploma/build/reports/tests/1670311453636.8.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -1174,8 +1174,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-83EHKA7V', ip: '172.20.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08e181b821972d62e27be0ddcd990004
 *** Element info: {Using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}
 	at jdk.internal.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source)
@@ -1198,13 +1198,13 @@ Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
 	... 97 more
 </failure>
   </testcase>
-  <testcase name="shouldFailurePaymentIfNumberOfMonthIfOneSymbol()" classname="ru.netology.test.Credit" time="0.999"/>
-  <testcase name="shouldFailurePaymentIfYearInTheFarFuture()" classname="ru.netology.test.Credit" time="0.914"/>
-  <testcase name="shouldFailurePaymentIfYearZero()" classname="ru.netology.test.Credit" time="5.41">
-    <failure message="Element not found {by text: Неверно указан срок действия карты}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670244187222.9.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670244187222.9.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверно указан срок действия карты}
+  <testcase name="shouldFailurePaymentIfNumberOfMonthIfOneSymbol()" classname="ru.netology.test.Credit" time="1.388"/>
+  <testcase name="shouldFailurePaymentIfYearInTheFarFuture()" classname="ru.netology.test.Credit" time="1.494"/>
+  <testcase name="shouldFailurePaymentIfYearZero()" classname="ru.netology.test.Credit" time="6.044">
+    <failure message="Element not found {by text: Неверно указан срок действия карты}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670311462627.9.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670311462627.9.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверно указан срок действия карты}
 Expected: visible
-Screenshot: file:/C:/diploma/build/reports/tests/1670244187222.9.png
-Page source: file:/C:/diploma/build/reports/tests/1670244187222.9.html
+Screenshot: file:/C:/diploma/build/reports/tests/1670311462627.9.png
+Page source: file:/C:/diploma/build/reports/tests/1670311462627.9.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -1314,8 +1314,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-83EHKA7V', ip: '172.20.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08e181b821972d62e27be0ddcd990004
 *** Element info: {Using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверно указан срок действия карты&quot;]/parent::*}
 	at jdk.internal.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source)
@@ -1338,11 +1338,11 @@ Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
 	... 97 more
 </failure>
   </testcase>
-  <testcase name="shouldFailurePaymentIfEmptyCardNumber()" classname="ru.netology.test.Credit" time="5.409">
-    <failure message="Element not found {by text: Поле обязательно для заполнения}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670244192648.10.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670244192648.10.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Поле обязательно для заполнения}
+  <testcase name="shouldFailurePaymentIfEmptyCardNumber()" classname="ru.netology.test.Credit" time="6.014">
+    <failure message="Element not found {by text: Поле обязательно для заполнения}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670311468582.10.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670311468582.10.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Поле обязательно для заполнения}
 Expected: visible
-Screenshot: file:/C:/diploma/build/reports/tests/1670244192648.10.png
-Page source: file:/C:/diploma/build/reports/tests/1670244192648.10.html
+Screenshot: file:/C:/diploma/build/reports/tests/1670311468582.10.png
+Page source: file:/C:/diploma/build/reports/tests/1670311468582.10.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -1452,8 +1452,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-83EHKA7V', ip: '172.20.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08e181b821972d62e27be0ddcd990004
 *** Element info: {Using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Поле обязательно для заполнения&quot;]/parent::*}
 	at jdk.internal.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source)
@@ -1476,11 +1476,11 @@ Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
 	... 97 more
 </failure>
   </testcase>
-  <testcase name="shouldFailurePaymentIfEmptyYear()" classname="ru.netology.test.Credit" time="5.396">
-    <failure message="Element not found {by text: Поле обязательно для заполнения}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670244198034.11.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670244198034.11.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Поле обязательно для заполнения}
+  <testcase name="shouldFailurePaymentIfEmptyYear()" classname="ru.netology.test.Credit" time="6.054">
+    <failure message="Element not found {by text: Поле обязательно для заполнения}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670311474628.11.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670311474628.11.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Поле обязательно для заполнения}
 Expected: visible
-Screenshot: file:/C:/diploma/build/reports/tests/1670244198034.11.png
-Page source: file:/C:/diploma/build/reports/tests/1670244198034.11.html
+Screenshot: file:/C:/diploma/build/reports/tests/1670311474628.11.png
+Page source: file:/C:/diploma/build/reports/tests/1670311474628.11.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -1590,8 +1590,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-83EHKA7V', ip: '172.20.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08e181b821972d62e27be0ddcd990004
 *** Element info: {Using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Поле обязательно для заполнения&quot;]/parent::*}
 	at jdk.internal.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source)
@@ -1614,14 +1614,14 @@ Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
 	... 97 more
 </failure>
   </testcase>
-  <testcase name="shouldFailurePaymentIfCardNumberOutOfBase()" classname="ru.netology.test.Credit" time="3.109"/>
-  <testcase name="shouldSuccessCreditIfValidApprovedCards()" classname="ru.netology.test.Credit" time="6.081"/>
-  <testcase name="shouldFailurePaymentIfYearBeforeCurrentYear()" classname="ru.netology.test.Credit" time="0.984"/>
-  <testcase name="shouldFailurePaymentIfNumberOfMonthZero()" classname="ru.netology.test.Credit" time="5.482">
-    <failure message="Element not found {by text: Неверно указан срок действия карты}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670244213678.12.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670244213678.12.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверно указан срок действия карты}
+  <testcase name="shouldFailurePaymentIfCardNumberOutOfBase()" classname="ru.netology.test.Credit" time="9.622"/>
+  <testcase name="shouldSuccessCreditIfValidApprovedCards()" classname="ru.netology.test.Credit" time="4.419"/>
+  <testcase name="shouldFailurePaymentIfYearBeforeCurrentYear()" classname="ru.netology.test.Credit" time="1.719"/>
+  <testcase name="shouldFailurePaymentIfNumberOfMonthZero()" classname="ru.netology.test.Credit" time="6.198">
+    <failure message="Element not found {by text: Неверно указан срок действия карты}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/diploma/build/reports/tests/1670311496426.12.png&#13;&#10;Page source: file:/C:/diploma/build/reports/tests/1670311496426.12.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверно указан срок действия карты}
 Expected: visible
-Screenshot: file:/C:/diploma/build/reports/tests/1670244213678.12.png
-Page source: file:/C:/diploma/build/reports/tests/1670244213678.12.html
+Screenshot: file:/C:/diploma/build/reports/tests/1670311496426.12.png
+Page source: file:/C:/diploma/build/reports/tests/1670311496426.12.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -1731,8 +1731,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-83EHKA7V', ip: '172.20.112.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\D899~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08e181b821972d62e27be0ddcd990004
 *** Element info: {Using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверно указан срок действия карты&quot;]/parent::*}
 	at jdk.internal.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source)
@@ -1756,11 +1756,11 @@ Session ID: cfbe0a718caf4e4e9a5d68fef484a0f1
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 16943
+  <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 27950
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-дек. 05, 2022 3:41:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+дек. 06, 2022 10:22:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

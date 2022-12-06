@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.test.Api" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-12-05T12:41:46" hostname="LAPTOP-83EHKA7V" time="3.487">
+<testsuite name="ru.netology.test.Api" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-12-06T07:22:52" hostname="LAPTOP-83EHKA7V" time="3.533">
   <properties/>
-  <testcase name="shouldGetResponseForValidApprovedCardCreditRequest()" classname="ru.netology.test.Api" time="3.262"/>
-  <testcase name="shouldGetResponseForValidApprovedCardPayment()" classname="ru.netology.test.Api" time="0.079"/>
-  <testcase name="shouldGetResponseForValidDeclinedCardCreditRequest()" classname="ru.netology.test.Api" time="0.069"/>
-  <testcase name="shouldGetResponseForValidDeclinedCardPayment()" classname="ru.netology.test.Api" time="0.072"/>
+  <testcase name="shouldGetResponseForValidApprovedCardCreditRequest()" classname="ru.netology.test.Api" time="3.371"/>
+  <testcase name="shouldGetResponseForValidApprovedCardPayment()" classname="ru.netology.test.Api" time="0.063"/>
+  <testcase name="shouldGetResponseForValidDeclinedCardCreditRequest()" classname="ru.netology.test.Api" time="0.048"/>
+  <testcase name="shouldGetResponseForValidDeclinedCardPayment()" classname="ru.netology.test.Api" time="0.045"/>
   <system-out><![CDATA[Request method:	POST
 Request URI:	http://localhost:8080/api/v1/credit
 Proxy:			<none>
