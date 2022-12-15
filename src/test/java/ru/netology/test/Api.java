@@ -12,29 +12,29 @@ import static ru.netology.data.DataHelper.getDeclinedCard;
 public class Api {
     @Test
     void shouldGetResponseForValidApprovedCardPayment() {
-        val validApprovedCard = getApprovedCard();
-        val response = PaymentPageForm(validApprovedCard);
+        var validApprovedCard = getApprovedCard();
+        var response = PaymentPageForm(validApprovedCard);
         assertTrue(response.contains("APPROVED"));
     }
 
     @Test
     void shouldGetResponseForValidDeclinedCardPayment() {
-        val validDeclinedCard = getDeclinedCard();
-        val response = PaymentPageForm(validDeclinedCard);
+        var validDeclinedCard = getDeclinedCard();
+        var response = PaymentPageForm(validDeclinedCard);
         assertTrue(response.contains("DECLINED"));
     }
 
     @Test
     void shouldGetResponseForValidApprovedCardCreditRequest() {
-        val validApprovedCard = getApprovedCard();
-        val response = CreditRequestPageForm(validApprovedCard);
+        var validApprovedCard = getApprovedCard();
+        var response = CreditRequestPageForm(validApprovedCard);
         assertTrue(response.contains("APPROVED"));
     }
 
     @Test
     void shouldGetResponseForValidDeclinedCardCreditRequest() {
-        val validDeclinedCard = getDeclinedCard();
-        val response = CreditRequestPageForm(validDeclinedCard);
+        var validDeclinedCard = getDeclinedCard();
+        var response = CreditRequestPageForm(validDeclinedCard);
         assertTrue(response.contains("DECLINED"));
     }
 }

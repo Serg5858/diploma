@@ -47,167 +47,159 @@ public class Credit {
     //Тесты с картами,подготовленными разработчиками.Позитивные тесты
     @Test
     public void shouldSuccessCreditIfValidApprovedCards() {
-        val cardData = getApprovedCard();
+        var cardData = getApprovedCard();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldSuccessNotification();
 
-        val expectedStatus = "APPROVED";
-        val actualStatus = getCardStatusForCreditRequest();
+        var expectedStatus = "APPROVED";
+        var actualStatus = getCardStatusForCreditRequest();
         assertEquals(expectedStatus, actualStatus);
 
-        val bankIdExpected = getBankId();
-        val paymentIdActual = getPaymentIdForCreditRequest();
-        assertNotNull(bankIdExpected);
-        assertNotNull(paymentIdActual);
-        assertEquals(bankIdExpected, paymentIdActual);
+
     }
 
     @Test
     public void shouldFailurePayIfValidDeclinedCards() {
-        val cardData = getDeclinedCard();
+        var cardData = getDeclinedCard();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldFailureNotification();
 
-        val expectedStatus = "DECLINED";
-        val actualStatus = getCardStatusForCreditRequest();
+        var expectedStatus = "DECLINED";
+        var actualStatus = getCardStatusForCreditRequest();
         assertEquals(expectedStatus, actualStatus);
 
-        val bankIdExpected = getBankId();
-        val paymentIdActual = getPaymentIdForCreditRequest();
-        assertNotNull(bankIdExpected);
-        assertNotNull(paymentIdActual);
-        assertEquals(bankIdExpected, paymentIdActual);
+
     }
     //Тесты на поле номер карты
     @Test
     public void shouldFailurePaymentIfEmptyCardNumber() {
-        val cardData = getInvalidCardNumberIfEmpty();
+        var cardData = getInvalidCardNumberIfEmpty();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldEmptyFieldNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfCardNumberLess16Symbol() {
-        val cardData = getInvalidCardNumberIfLess16Symbol();
+        var cardData = getInvalidCardNumberIfLess16Symbol();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldIncorrectFormatNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfCardNumberOutOfBase() {
-        val cardData = getInvalidCardNumberIfOutOfBase();
+        var cardData = getInvalidCardNumberIfOutOfBase();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldFailureNotification();
     }
     //Тесты на поле месяц
     @Test
     public void shouldFailurePaymentIfEmptyNumberOfMonth() {
-        val cardData = getInvalidNumberOfMonthIfEmpty();
+        var cardData = getInvalidNumberOfMonthIfEmpty();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldEmptyFieldNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfNumberOfMonthIfOneSymbol() {
-        val cardData = getInvalidNumberOfMonthIfOneSym();
+        var cardData = getInvalidNumberOfMonthIfOneSym();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldIncorrectFormatNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfNumberOfMonthIfMore12() {
-        val cardData = getInvalidNumberOfMonthIfMore12();
+        var cardData = getInvalidNumberOfMonthIfMore12();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldInvalidExpiredDateNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfNumberOfMonthZero() {
-        val cardData = getInvalidNumberOfMonthIfZero();
+        var cardData = getInvalidNumberOfMonthIfZero();
         paymentPage.fillCardData(cardData);
-        paymentPage.shouldInvalidExpiredDateNotification();
+        paymentPage.shouldIncorrectFormatNotification();
     }
     //Тесты на поле год
     @Test
     public void shouldFailurePaymentIfEmptyYear() {
-        val cardData = getInvalidYearIfEmpty();
+        var cardData = getInvalidYearIfEmpty();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldEmptyFieldNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfYearOneSymbol() {
-        val cardData = getInvalidYearIfOneSym();
+        var cardData = getInvalidYearIfOneSym();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldIncorrectFormatNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfYearBeforeCurrentYear() {
-        val cardData = getInvalidYearIfNotCurrentYear();
+        var cardData = getInvalidYearIfNotCurrentYear();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldExpiredDatePassNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfYearZero() {
-        val cardData = getInvalidYearIfZero();
+        var cardData = getInvalidYearIfZero();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldInvalidExpiredDateNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfYearInTheFarFuture() {
-        val cardData = getInvalidYearIfInTheFuture();
+        var cardData = getInvalidYearIfInTheFuture();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldInvalidExpiredDateNotification();
     }
     //Тесты на поле Владелец
     @Test
     public void shouldFailurePaymentIfEmptyCardholderName() {
-        val cardData = getInvalidCardholderNameIfEmpty();
+        var cardData = getInvalidCardholderNameIfEmpty();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldEmptyFieldNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfCardholderNameOneWord() {
-        val cardData = getInvalidCardholderNameIfOneWord();
+        var cardData = getInvalidCardholderNameIfOneWord();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldIncorrectFormatNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfCardholderNameThreeWords() {
-        val cardData = getInvalidCardholderNameIfThreeWords();
+        var cardData = getInvalidCardholderNameIfThreeWords();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldIncorrectFormatNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfCardholderNameRusSymbol() {
-        val cardData = getInvalidCardholderNameIfRusSym();
+        var cardData = getInvalidCardholderNameIfRusSym();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldIncorrectFormatNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfCardholderNameNumeric() {
-        val cardData = getInvalidCardholderNameIfNumeric();
+        var cardData = getInvalidCardholderNameIfNumeric();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldIncorrectFormatNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfCardholderNameSpecSymbol() {
-        val cardData = getInvalidCardholderNameIfSpecSymbol();
+        var cardData = getInvalidCardholderNameIfSpecSymbol();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldIncorrectFormatNotification();
     }
     //Тесты на поле CVC/CVV
     @Test
     public void shouldFailurePaymentIfEmptyCvv() {
-        val cardData = getInvalidCvvIfEmpty();
+        var cardData = getInvalidCvvIfEmpty();
         paymentPage.fillCardData(cardData);
         final ElementsCollection fieldSub = $$(".input__sub");
         final SelenideElement cvvFieldSub = fieldSub.get(2);
@@ -216,21 +208,21 @@ public class Credit {
 
     @Test
     public void shouldFailurePaymentIfCvvOneSym() {
-        val cardData = getInvalidCvvIfOneSymbol();
+        var cardData = getInvalidCvvIfOneSymbol();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldIncorrectFormatNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfCvvTwoSym() {
-        val cardData = getInvalidCvvIfTwoSymbol();
+        var cardData = getInvalidCvvIfTwoSymbol();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldIncorrectFormatNotification();
     }
 
     @Test
     public void shouldFailurePaymentIfCvvThreeZero() {
-        val cardData = getInvalidCvvIfThreeZero();
+        var cardData = getInvalidCvvIfThreeZero();
         paymentPage.fillCardData(cardData);
         paymentPage.shouldIncorrectFormatNotification();
     }
