@@ -1,7 +1,6 @@
 package ru.netology.data;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
-import org.apache.commons.dbutils.handlers.ScalarHandler;
 import ru.netology.models.CreditRequestEntity;
 import ru.netology.models.PaymentEntity;
 
