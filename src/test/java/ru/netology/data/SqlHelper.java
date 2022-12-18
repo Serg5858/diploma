@@ -42,7 +42,7 @@ public class SqlHelper {
 
     public static String getCardStatusForPayment() {
         var runner = new QueryRunner();
-        String statusQuery = "SELECT status FROM payment_entity;";
+        String statusQuery = "SELECT status FROM payment_entity";
         try (Connection connection = getConnection()) {
             var cardStatus = runner.query(connection,statusQuery,new BeanHandler<>(PaymentEntity.class));
             return cardStatus.getStatus();
@@ -54,7 +54,7 @@ public class SqlHelper {
 
     public static String getCardStatusForCreditRequest() {
         var runner = new QueryRunner();
-        String statusQuery = "SELECT status FROM credit_request_entity;";
+        String statusQuery = "SELECT status FROM credit_request_entity";
         try (Connection connection = getConnection()) {
             var cardStatus = runner.query(connection, statusQuery, new BeanHandler<>(CreditRequestEntity.class));
             return cardStatus.getStatus();
