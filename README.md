@@ -33,10 +33,10 @@
 **Запуск тестов**    
 Для СУБД MySQL:  
 В новой вкладке терминала ввести команду:  
-`./gradlew clean test "-Ddatasource.url=jdbc:mysql://localhost:3306/app"`  
+`./gradlew test `  
 Для СУБД PostgreSQL:  
 В новой вкладке терминала ввести команду:  
-`./gradlew clean test "-Ddatasource.url=jdbc:postgresql://localhost:5432/app"`    
+`./gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app"`    
 **Генерация отчета Allure**   
 Данную команду нужно ввести после прогона всех тестов.     
 Для открытия страницы с отчетом в браузере в новой вкладке терминала написать команду:    
